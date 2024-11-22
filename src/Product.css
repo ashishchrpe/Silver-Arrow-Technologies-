@@ -1,0 +1,14 @@
+
+ @media (max-width:750px){
+    #items{
+        padding-left: 5%;
+    }
+ }
+  #items{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    color: white;
+    background-color: black;
+    padding-left: 10%;
+  }
