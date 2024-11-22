@@ -13,7 +13,7 @@ function Login(){
     };
     let handleSubmit=async(event)=>{
      event.preventDefault();   
-     const data=await fetch('https://zerodha-backend-zb72.onrender.com/login',{
+     const data=await fetch('http://localhost:8080/login',{
         method:'POST',
         body:JSON.stringify(cont),
         headers:{

@@ -16,7 +16,7 @@ function Signup(){
     let handleSubmit=async(event)=>{
      event.preventDefault();   
      
-     const data=await fetch('https://zerodha-backend-zb72.onrender.com/signup',{
+     const data=await fetch('http://localhost:8080/signup',{
         method:'POST',
        
         body:JSON.stringify(cont),
@@ -31,7 +31,7 @@ function Signup(){
     };
     
   let getHandle=async()=>{
-    const data=await fetch('https://zerodha-backend-zb72.onrender.com/signup',{
+    const data=await fetch('http://localhost:8080/signup',{
         method:'GET',
       }
      
